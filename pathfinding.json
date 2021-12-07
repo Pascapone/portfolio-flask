@@ -1,0 +1,21 @@
+{
+    "nodeColors" : {
+        "0" : "white",      
+        "1" : "Aquamarine",
+        "2" : "black",  
+        "3" : "blue",
+        "4" : "green",
+        "5" : "BlanchedAlmond",
+        "6" : "yellow"
+    },
+
+    "nodeTypes" : {
+        "Unblocked" : 0,
+        "Open": 1,
+        "Obstacle": 2,
+        "Start": 3,
+        "Finish": 4,
+        "Explored": 5,
+        "Path": 6
+    }
+}
