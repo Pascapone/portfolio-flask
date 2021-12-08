@@ -119,4 +119,8 @@ def apply_knearest():
         return_object = { 'points' : points, 'iteration_tracker' : iteration_tracker}
 
         return json.dumps(return_object)
+
+
+if __name__ == "main":
+    app.run(debug=False, host='0.0.0.0')
         
