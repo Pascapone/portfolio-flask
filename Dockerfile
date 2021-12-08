@@ -20,8 +20,6 @@ RUN pip install importlib-metadata==4.8.2
 RUN pip install itsdangerous==2.0.1
 RUN pip install Jinja2==3.0.3
 RUN pip install joblib==1.1.0
-RUN pip install keras==2.7.0
-RUN pip install Keras-Preprocessing==1.1.2
 RUN pip install libclang==12.0.0
 RUN pip install Markdown==3.3.6
 RUN pip install MarkupSafe==2.0.1
@@ -41,17 +39,11 @@ RUN pip install scikit-learn==1.0.1
 RUN pip install scipy==1.7.3
 RUN pip install six==1.16.0
 RUN pip install sklearn==0.0
-RUN pip install tensorboard==2.7.0
-RUN pip install tensorboard-data-server==0.6.1
-RUN pip install tensorboard-plugin-wit==1.8.0
-RUN pip install tensorflow==2.7.0
-RUN pip install tensorflow-estimator==2.7.0
-RUN pip install tensorflow-io-gcs-filesystem==0.22.0
+RUN pip install tensorflow-cpu
 RUN pip install termcolor==1.1.0
 RUN pip install threadpoolctl==3.0.0
 RUN pip install typing-extensions==4.0.0
 RUN pip install urllib3==1.26.7
-RUN pip install Werkzeug==2.0.2
 RUN pip install wrapt==1.13.3
 RUN pip install zipp==3.6.0
 
