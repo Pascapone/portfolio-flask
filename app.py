@@ -18,6 +18,10 @@ DEV_SERVER_URL = 'http://localhost:3000/'
 
 app = Flask(__name__)
 
+# Ignore static folder in development mode.
+if MODE == "development":
+    app = Flask(__name__, static_folder=None)
+
 CORS(app)
 
 # Ignore static folder in development mode.
@@ -121,6 +125,6 @@ def apply_knearest():
         return json.dumps(return_object)
 
 
-if __name__ == "main":
-    app.run(debug=False, host='0.0.0.0')
+# if __name__ == "main":
+#     app.run(debug=False, host='0.0.0.0')
         
